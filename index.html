@@ -101,13 +101,34 @@
   <!-- Testimonials -->
 
   <section id="testimonials" class="ThirdSection" >
-    <h2>Quote 1. Woof.</h2>
-    <img src="images/dog-img.jpg" />
-    <em>Beirut, Lebanon</em>
-
-    <h2>Quote 2. Woof.</h2>
-    <img src="images/dog-img.jpg" />
-    <em>Beirut, Lebanon</em>
+    <!--we want the caousel to fill the whole width-->
+    <div class="container-fluid">
+      <!--every carousel we create needs an id-->
+      <!--the three classes are a must , for the carousel to work-->
+      <div id="carouselone" class="carousel slide" data-bs-ride="carousel">
+        <!--setup the indicators--> <!--indicators are the right and left arrows and the bottom buttons-->
+        <div class="carousel-indicators">
+          <!--will create the bottoms that are in the bottom-->
+          <!-- target must be equal to the carousel's id ,-->
+          <!-- data-bs-slide-to what slide this button operates on-->
+          <!--each button should have a unique number to the slide that its going to-->
+          <button type="button" data-bs-target="#carouselone" data-bs-slide-to="0" class="active"
+          current="true" aria-label="One"></button>
+          <button type="button" data-bs-target="#carouselone" data-bs-slide-to="1" 
+           aria-label="Two"></button>
+        </div>
+        <div class="carousel-inner">
+          <div>
+            <div class="carousel-item active">
+              <img src="images/dog-img.jpg" alt="woof1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/dog-img.jpg"  alt="woof2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
