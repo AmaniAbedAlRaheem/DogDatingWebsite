@@ -1,0 +1,21 @@
+.imagerotate{
+
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(12deg);
+    margin-top: 70px;
+    margin-right: 80px;
+    
+
+ 
+}
+
+
+#myapp{
+
+    margin-left: 20px;;
+}
+
