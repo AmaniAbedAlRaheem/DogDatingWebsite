@@ -13,19 +13,43 @@
       <section id="title">
 
        <!-- Nav Bar -->
-        <nav class="navbar">
+       <!--added the second class that justifies if the screen size is less 
+      than md and up , then show the toggle , else show them normaly-->
+      <!--added navbar-light to add light theme to the nav inorder
+      for the toggle to appear-->
+        <nav class="navbar navbar-expand-md navbar-light">
           <div class="container-xxl">
             <a href="#title" class="navbar-brand">
-              <span class="fw-bold text-secondary">MyApp</span>
+              <span class="fw-bold text-secondary">
+                MyApp
+              </span>
             </a>
             <!-- Toggle button for mobile nav-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
             aria-label="Toggle navigation">
-            <!--will create a span inside the button that includes the icon [burger]-->
-            <!--its the button that we click -->
-            <span class="navbar-toggler-icon"></span>
+              <!--will create a span inside the button that includes the icon [burger]-->
+              <!--its the button that we click -->
+              <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!--here I added the navbar links-->
+            <!--create a div that surrounds all the links-->
+            <div id="main-nav" class="collapse navbar-collapse justify-content-end align-center" >
+              <!--the id main-nav is whats connecting the button to these links-->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                  </li>
+                  <li class="navbar-item">
+                    <a href="#download" class="nav-link">Download</a>
+                  </li>
+                </ul>
+            
+            </div>
           </div>
         </nav>
   
