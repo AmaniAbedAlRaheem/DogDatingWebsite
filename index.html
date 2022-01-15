@@ -42,19 +42,27 @@
 
       <!-- Title -->
 
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <h1 class="big-font">Meet dog next door.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i
-              class="fab fa-apple"></i>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i
-              class="fab fa-google-play"></i>Download</button>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <img  src="images/app.png" alt="phone" />
+      <div class="container-lg">
+        <!--this justifies all the coloumns to be at the center of the webpage-->
+        <div class="row justify-content-center">
+          <!--i will create two coloums -->
+          <!--on the left it will be text-->
+          <!-- on the right i will have an image-->
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="dispay-2">Meet dog next door.</div>
+            </h1>
+            <a href="#" class="btn btn-dark btn-lg"><i class="bi bi-apple"></i>Download</a>
+            <!--reuse this to make the background of button transparent btn-primary-outline-->
+            <a href="#" class="btn btn-dark btn-lg"><i class="fab fa-google-play"></i>
+              Download</a>
+          </div>
+          <!--now lets create another coloumn to add the image-->
+          <div class="col-md-5 text-center imagerotate ">
+              <img  src="images/app.png" alt="dogimageapp">
+          </div>
         </div>
       </div>
-    </div>
   </section>
 
 
@@ -92,16 +100,14 @@
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
-
+  <section id="testimonials" class="ThirdSection" >
     <h2>Quote 1. Woof.</h2>
-    <img src="images/dog-img.jpg">
+    <img src="images/dog-img.jpg" />
     <em>Beirut, Lebanon</em>
 
     <h2>Quote 2. Woof.</h2>
-    <img src="images/dog-img.jpg">
+    <img src="images/dog-img.jpg" />
     <em>Beirut, Lebanon</em>
-
   </section>
 
 
