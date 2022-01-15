@@ -2,102 +2,114 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Dog Dating Website</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>Dog Dating Website</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
 </head>
 
 <body>
-    <section id="title" class="bg-primary">
-        <!-- Nav Bar -->
-        <!--added the second class that justifies if the screen size is less 
-          than md and up , then show the toggle , else show them normaly-->
-        <!--added navbar-light to add light theme to the nav inorder
-          for the toggle to appear-->
-        <nav class="navbar navbar-expand-md navbar-light  m-5 bg-primary">
-            <div class="container-xxl"> <a href="#title" class="navbar-brand ms-5"> <span id="myapp" class="display-5 fw-bold "> MyApp </span> </a> <!-- Toggle button for mobile nav--> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <!--will create a span inside the button that includes the icon [burger]-->
-                    <!--its the button that we click --> <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--here I added the navbar links-->
-                <!--create a div that surrounds all the links-->
-                <div id="main-nav" class="collapse navbar-collapse justify-content-end align-center">
-                    <!--the id main-nav is whats connecting the button to these links-->
-                    <ul class="navbar-nav">
-                        <li class="nav-item me-5"> <a href="#contact" class="nav-link">Contact</a> </li>
-                        <li class="navbar-item me-5"> <a href="#pricing" class="nav-link">Pricing</a> </li>
-                        <li class="navbar-item me-5"> <a href="#download" class="nav-link">Download</a> </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <section class="SectionOne" id="title">
+    <div class="container">
+      <!-- Add Nav Bar Here  -->
+      <!--used navbar-dark , this will make the color of the text light and used when background  is dark-->
+      <!--navbar-expand-md this means , that the links will be expanded from burger button after screensize
+      reaches the medium size and above-->
+      <nav class="navbar navbar-dark navbar-expand-md ">
+        <a class="navbar-brand" href="#">MyApp</a>
+        <!-- Burger looks button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#mainnav" aria-controls="mainnav" 
+        aria-expanded="false" aria-label="Toggle navigation">
+          <!--add the burger icon-->
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-        <!--Title-->
-        <div class="container-lg">
-          <!--this justifies all the coloumns to be at the center of the webpage-->
-          <div class="row justify-content-center">
-            <!--i will create two coloums -->
-            <!--on the left it will be text-->
-            <!-- on the right i will have an image-->
-            <div class="col-md-5 text-center text-md-start">
-              <h1>
-                <div class="dispay-2">Meet dog next door.</div>
-              </h1>
-              <a href="#" class="btn btn-dark btn-lg"><i class="bi bi-apple"></i>Download</a>
-              <!--reuse this to make the background of button transparent btn-primary-outline-->
-              <a href="#" class="btn btn-dark btn-lg"><i class="fab fa-google-play"></i>
-                Download</a>
-            </div>
-            <!--now lets create another coloumn to add the image-->
-            <div class="col-md-5 text-center imagerotate">
-                <img height="40%" src="images/app.png" alt="dogimageapp">
-            </div>
-          </div>
+        <!-- Now , will add the links that will be inside the burger looking button -->
+        <!--the id of the first div is to connect the links under , to the burgur button-->
+        <div class="collapse navbar-collapse justify-content-end align-center" id="mainnav">
+           <ul class="navbar-nav">
+              <li class="nav-item me-5"> <a href="#contact" class="nav-link">Contact</a> </li>
+              <li class="navbar-item me-5"> <a href="#pricing" class="nav-link">Pricing</a> </li>
+              <li class="navbar-item me-5"> <a href="#download" class="nav-link">Download</a> </li>
+           </ul>
         </div>
+    </nav>
 
-    </section>
+      <!-- Title -->
 
-
-    <!-- Features -->
-
-  <section id="features">
-    <div class="container-lg my-5">
-      <div class="row mt-5">
-        <div class="col-md-4 text-center" >
-          <i class="bi bi-check-circle fa-4x check"></i>
-          <div>Feature 1</div>
-          <p>write something here</p>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h1 class="big-font">Meet dog next door.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i
+              class="fab fa-apple"></i>Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i
+              class="fab fa-google-play"></i>Download</button>
         </div>
-        <div class="col-md-4 text-center ">
-          <i class="bi bi-bullseye fa-4x target"></i>
-          <div>Feature 2</div>
-          <p>write something here</p>
-        </div>
-        <div class="col-md-4 text-center">
-          <i class="bi bi-suit-heart-fill fa-4x heart"></i>
-          <div>Feature 3</div>
-          <p>write something here</p>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img  src="images/app.png" alt="phone" />
         </div>
       </div>
     </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="text-center" id="features">
+    <div class="container">
+      <!--created a row with a big margin-->
+      <div class="row mt-5">
+        <!--added a column and specified that on medium breakpoint  each column 
+        will take a size of 4 , while sm is by default stating that each column take size 12-->
+        <!--increase the icon size my class fa-4x-->
+        <div class="col-md-4 FeaturesPadding">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="fw-bold">Feature1</h3>
+          <p>Write something here...</p>
+        </div>
+        <div class="col-md-4 FeaturesPadding">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="fw-bold">Feature2</h3>
+          <p>Write something here...</p>
+
+        </div>
+        <div class="col-md-4 FeaturesPadding ">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="fw-bold">Feature3</h3>
+          <p>Write something here...</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
 
-    
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <h2>Quote 1. Woof.</h2>
+    <img src="images/dog-img.jpg">
+    <em>Beirut, Lebanon</em>
+
+    <h2>Quote 2. Woof.</h2>
+    <img src="images/dog-img.jpg">
+    <em>Beirut, Lebanon</em>
 
   </section>
 
 
 
 
-    
-    <script href="js/bootstrap.js"></script>
+
+
+  <script href="js/bootstrap.js"></script>
 </body>
 
 </html>

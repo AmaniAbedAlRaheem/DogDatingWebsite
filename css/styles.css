@@ -1,3 +1,5 @@
+
+
 .imagerotate{
 
 
@@ -12,25 +14,19 @@
 
  
 }
+.SectionOne {
+    background: #674bff;
+  }
+  
+  
+.FeaturesPadding {
+    padding: 70px;
+  }
 
 
-#myapp{
-
-    margin-left: 20px;;
-}
-
-.check{
-    color:#674BFF;
-}
-
-.target{
-    color:#674BFF
-}
-
-.heart{
-
-    color:#674BFF;
-    
-}
 
 
+  /*change the color of the icon's*/
+.icon {
+    color: #674bff;
+  }
