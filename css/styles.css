@@ -1,79 +1,122 @@
+/*First Section-*/
+
+#title {
+  
+  background: #674bff;
+  padding-left: 10%;
+}
 
 
-.imagerotate{
-
-
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(12deg);
-    margin-top: 70px;
-    margin-right: 80px;
-    
-
+.MyApp {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
  
 }
-.SectionOne {
-    background: #674bff;
-  }
+
+/* to move links [contact-pricing-download to the right */
+.navbar-nav {
+  padding-right: 25%;
+}
+
+.nav-link {
+  font-family: Arial ;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+
+/*meet dog next door*/
+.fontproperties{
   
+  font-size:60px;
+  color:white;
+  line-height:2;
+}
+
+.ButtonUp {
+
+  margin-top: 4%;
+  margin-right:2%;
+  margin-bottom: 12%;
+  
+
+}
+
+/*.rowone{
+  height: 300px;
+}
+*/
+
+.IMAGEAPP{
+
+  
+  /*space from top*/
+  padding-top: 5%;
+  /*inorder for image to go under the nav bar*/
+  padding-right:8%;
+  max-width:320px;
+  /*rotate the image 25 degree*/
+  transform: rotate(25deg);
+  /*For the photo to go under the white color section*/
+  position:absolute;
+  
+  
+  
+
+}
+
+
+
+
+
+
+
+/*------------------------------------Sec 2-----------------------------------------*/
+
 
 
 
 /*features CSS*/
 
 #features {
-    /*section padding from its elements*/
-    padding: 6% 18%;
-    position: relative;
-    
+  /*section padding from its elements*/
+  padding: 6% 18%;
+  position: relative;
+  background-color: white;;
+
 }
 
- .icon {
+.icon {
   color: #674bff;
 }
+
 /*done with features css*/
 
 
 
-
-
-
-
-.hrmargin{
-
-  margin-top: 100px;
-  color: #242526	;
-}
-
-.cta{
-
-  background: #674bff;
-}
-
-
-
-
-
-
-
+/*--------------------------------------Section 3 ---------------------------*/
 
 
 /*carousel*/
 
-#testimonials{
+
+
+#testimonials {
   background: #674bff;
 }
-.CarouselItemHeading{
+
+.CarouselItemHeading {
   font-size: 40px;
-  
+
 }
 
-.CarouselItemImage{
+.CarouselItemImage {
 
   border-radius: 125%;
-  width:10%;
+  width: 10%;
   margin-top: 15px;
 
 }
@@ -82,15 +125,27 @@
   padding: 6% 12%;
 }
 
-/*dne with carousel's design*/
 
+
+.hrmargin {
+
+  margin-top: 100px;
+  color: #242526;
+}
+
+
+/*done with carousel's design*/
+
+
+
+/*---------------------------------------Section 4----------------------------------*/
 
 
 
 /* Press */
 
-#press{
-  background:#674bff;
+#press {
+  background: #674bff;
   padding-left: 25%;
   padding-right: 25%;
 }
@@ -100,28 +155,40 @@
 
 
 
+
+
+/*---------------------------------------Section 5-----------------------------*/
+
+
 /* pricing  */
 
 
 #pricing {
-  background:white;
+  background: white;
   padding: 100px;
-  
+
 }
+
 /*columns padding*/
 .Padding {
   padding: 2% 2%;
 }
 
 
+
+
+/*----------------------------------Section 6 ----------------------------------*/
+
+
+
 /*action*/
 #cta {
 
-  background-color:#674bff ;
+  background-color: #674bff;
 }
 
-.ctaheading{
-  
+.ctaheading {
+
   font-size: 50px;
   padding-top: 5%;
   line-height: 2;
@@ -129,7 +196,7 @@
 
 }
 
-.DownloadButton{
+.DownloadButtonTwo {
 
   margin: 3% 1%;
 
@@ -137,22 +204,48 @@
 
 
 
+
+
+
+/*---------------------------------Section footer--------------------------------*/
+
+
 /*footer*/
 
-#footer{
+#footer {
 
   padding: 4%;
- 
+
 }
 
-.footericons{
+.footericons {
 
-  color:black;
+  color: black;
   margin-top: 3%;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 3%;;
- 
+  margin-bottom: 3%;
+  ;
+
 }
 
-/*donw with footer
+/*DONE WITH FOOTER*/
+
+
+/*this will work when the window width
+reaches */
+@media (max-width: 750px) {
+  .IMAGEAPP {
+    /*The browser calculates the width*/
+    width: 350px;
+    max-width: 400px;;
+    /*takes the normal flow of the document*/
+    position: static;
+    /*this means that the image will return to its normal rotation at 0*/
+    transform: rotate(0);
+  
+
+  }
+
+  
+}
