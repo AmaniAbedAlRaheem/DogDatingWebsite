@@ -39,28 +39,6 @@
 
 
 
- 
-
- 
-
-
-.carousel-item{
-
-    height:32rem;
-    background:#777;
-
-  }
-
-.carouselone {
-    background: transparent;
-    }
-
-
-.ForthSection{
-
-  background: #674bff;
-
-}
 
 .hrmargin{
 
@@ -74,23 +52,31 @@
 }
 
 
+
+
+
+
+
+
+
 /*carousel*/
 
-
-.CarouselQuote1{
-  font-size: 50px;
-  color: black;
-  /*font-weight: 900;*/
+#testimonials{
+  background: #674bff;
 }
-
-.CarouselQuoteSubtitle1{
-  color: white;
-}
-
-.CarouselQuoteImage1{
+.CarouselItemHeading{
+  font-size: 40px;
   
-  /*round image*/
-  border-radius: 130%;
-  margin: 20px;
-  width: 20%;
 }
+
+.CarouselItemImage{
+
+  border-radius: 125%;
+  width:10%;
+  margin-top: 15px;
+
+}
+
+
+
+

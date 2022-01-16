@@ -68,56 +68,66 @@
 
   <!-- Features -->
 
-  <section  id="features" class="ThirdSection text-center">
+  <!--use class text-center to center the section items in the middle-->
+  <section  id="features" class="text-center">
     <div class="container-fluid m-3">
       <div class="row">
         <!--by default , if small size screen ,each element will take 12 size column-->
         <div class="FeaturesIcons col-md-4  p-5">
+          <!--use fa-4x to change the size of the icons , we can change the class depending on the size we want-->
           <i class="icon fas fa-check-circle fa-4x"></i>
           <h3 class="fw-bold">Feature1</h3>
           <p>Write something here...</p>
         </div>
+        <!--On screen size md and up each element [feature] takes 4 size column-->
         <div class="FeaturesIcons col-md-4  p-5">
           <i class="icon fas fa-bullseye fa-4x"></i>
           <h3 class="fw-bold">Feature2</h3>
           <p>Write something here...</p>
-
         </div>
         <div class=" FeaturesIcons col-md-4  p-5">
           <i class="icon fas fa-heart fa-4x"></i>
           <h3 class="fw-bold">Feature3</h3>
           <p>Write something here...</p>
         </div>
-
       </div>
     </div>
   </section>
 
+ <!-- Testimonials -->
 
-<!-- Testimonials -->
-
-<section  id="testimonials" class="ThirdSection text-center">
-
-  <!--id will be used when adding indicators [arrows]-->
-  <div id="CarouselOne" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <!--first item must always be set to active-->
+ <section  id="testimonials"  class="text-center">
+   <!--Declare an id, will use it later on in the code -->
+  <div id="MyCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner p-5">
+      <!--first item in the carousel should always be active-->
       <div class="carousel-item active">
-        <!--first  carousel item-->
-        <h2 class="CarouselQuote1">Quote 1. Woof.</h2>
-        <img class="CarouselQuoteImage1" src="images/dog-img.jpg" />
-        <em class="CarouselQuoteSubtitle1">Beirut, Lebanon</em>
-     </div>
+        <h2 class="CarouselItemHeading fw-bold">Quote 1. Woof.</h2>
+        <img class="CarouselItemImage" src="images/dog-img.jpg" />
+        <em class="CarouselSubHeading text-light ">Beirut, Lebanon</em>
+      </div>
+      <!--other items in the carousel should'nt be active-->
+      <div class="carousel-item">
+        <h2 class="CarouselItemHeading  fw-bold">Quote 2. Woof.</h2>
+        <img class="CarouselItemImage" src="images/dog-img.jpg" />
+        <em class="CarouselSubHeading text-light ">Beirut, Lebanon</em>
+      </div>
+    </div>
+    <!--the id is to connect the buttons i've created belowe , to the carousel created above -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#MyCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <!--visually hidden is to hide the prev-text-->
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#MyCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <!--visually hidden is to hide the next-text-->
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
 </section>
  
-
-
-
-
-
-
 
 
 <!-- Press -->
@@ -218,18 +228,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+  <script src="https://kit.fontawesome.com/4e609a6d52.js" crossorigin="anonymous"></script>
   <script href="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  
 </body>
 
 </html>
