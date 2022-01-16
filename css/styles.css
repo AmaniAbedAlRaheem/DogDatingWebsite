@@ -18,35 +18,40 @@
     background: #674bff;
   }
   
-  
-.FeaturesPadding {
-    padding: 70px;
-  }
+
+
+
+/*features CSS*/
+
+#features {
+    /*section padding from its elements*/
+    padding: 6% 18%;
+    
+}
+
+ .icon {
+  color: #674bff;
+}
+/*done with features css*/
 
 
 
 
-  /*change the color of the icon's*/
-.icon {
-    color: #674bff;
-  }
+
 
  
-  .ThirdSection{
 
-    background: #674bff;
+ 
 
 
-  }
-
-  .carousel-item{
+.carousel-item{
 
     height:32rem;
     background:#777;
 
   }
 
-  .carouselone {
+.carouselone {
     background: transparent;
     }
 
