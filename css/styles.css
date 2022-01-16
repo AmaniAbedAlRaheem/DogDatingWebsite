@@ -62,3 +62,18 @@
   margin-top: 100px;
   color: #242526	;
 }
+
+.cta{
+
+  background: #674bff;
+}
+
+
+/*carousel*/
+
+
+.CarouselQuote1{
+  font-size: 34px;
+  font-weight: 700;
+  color: black;
+}
