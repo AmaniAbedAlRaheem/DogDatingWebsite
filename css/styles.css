@@ -75,10 +75,17 @@
 .CarouselQuote1{
   font-size: 50px;
   color: black;
+  /*font-weight: 900;*/
 }
 
 .CarouselQuoteSubtitle1{
   color: white;
 }
 
-
+.CarouselQuoteImage1{
+  
+  /*round image*/
+  border-radius: 130%;
+  margin: 20px;
+  width: 20%;
+}
