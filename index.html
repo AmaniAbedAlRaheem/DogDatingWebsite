@@ -145,7 +145,7 @@
   </section>
 
   
-
+<!---------------------------------------------------------Grey Line---------------------------------------------->
 
   <hr size="10" class="hrmargin">
 
@@ -158,47 +158,52 @@
 
     <div class="row">
 
-      <div class="col-xs-6 col-sm-6 col-md-4 Padding">
+      <!--when screen size is medium and up then each col takes size of 4 , means 3 columns are on the same line-->
+      <!--when screen size hits size small , then each col will take size 6 , means only 2 columns will be on same line
+      and the third will be on a new line-->
+      <div class="col-sm-6 col-md-4 Padding">
         <div class="card">
+          <!--used card-header for the package1 to get the grey background with the line seperating the other card data -->
           <div class="card-header">
             <h3 class="fw-bold">Package 1</h3>
           </div>
-
+          <!--Add all the body texts inside -->
           <div class="card-body">
             <h2 class="fw-bold">Free</h2>
-            <p>5 Matches Per Day</p>
-            <p>10 Messages Per Day</p>
-            <p>Unlimited App Usage</p>
+            <p class="card-text">5 Matches Per Day</p>
+            <pm class="card-text">10 Messages Per Day</p>
+            <p class="card-text">Unlimited App Usage</p>
             <button type="button" class="btn  btn-outline-dark btn-lg">Sign Up</button>
           </div>
         </div>
       </div>
-      <div class="col-xs-6 col-sm-6  col-md-4 Padding">
+      <div class=" col-sm-6  col-md-4 Padding">
         <div class="card">
+          
           <div class="card-header">
             <h3 class="fw-bold">Package 2</h3>
           </div>
           <div class="card-body">
-            <h2 class="fw-bold">$29 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-dark btn-outline-light btn-lg">Sign Up</button>
+              <h2 class="fw-bold">$29 / mo</h2>
+              <p class="card-text">Unlimited Matches</p>
+              <p class="card-text">Unlimited Messages</p>
+              <p class="card-text">Unlimited App Usage</p>
+              <button type="button" class="btn btn-dark btn-outline-light btn-lg">Sign Up</button>
           </div>
         </div>
       </div>
-      <div class="col-xs-6 col-sm-6  col-md-4 Padding">
+      <div class="col-sm-6  col-md-4 Padding">
         <div class="card">
           <div class="card-header">
             <h3 class="fw-bold">Package 3</h3>
           </div>
           <div class="card-body">
             <h2 class="fw-bold">$49 / mo</h2>
-            <p>Pirority Listing</p>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
+            <p class="card-text">Pirority Listing</p>
+            <p class="card-text">Unlimited Matches</p>
+            <p class="card-text">Unlimited Messages</p>
             <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-dark btn-outline-light btn-lg">Sign Up</button>
+            <button type="button" class="btn btn-lg btn-dark btn-outline-light ">Sign Up</button>
           </div>
         </div>
       </div>
