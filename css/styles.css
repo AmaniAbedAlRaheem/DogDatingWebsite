@@ -26,6 +26,7 @@
 #features {
     /*section padding from its elements*/
     padding: 6% 18%;
+    position: relative;
     
 }
 
@@ -81,7 +82,19 @@
   padding: 6% 12%;
 }
 
-/*dne with carousel's design
+/*dne with carousel's design*/
+
+
+
+
+/* Press */
+
+#press{
+  background:#674bff;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
 
 
 
