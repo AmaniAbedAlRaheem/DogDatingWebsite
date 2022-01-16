@@ -112,3 +112,20 @@
 .Padding {
   padding: 2% 2%;
 }
+
+
+/*action*/
+#cta {
+
+  background-color:#674bff ;
+}
+
+.ctaheading{
+  
+  font-size: 50px;
+  padding-top: 5%;
+  line-height: 2;
+
+
+}
+
