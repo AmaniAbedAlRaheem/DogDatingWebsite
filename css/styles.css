@@ -8,9 +8,9 @@
 
 
 .MyApp {
-  margin-top: 50px;
+  margin-top: 25px;
   font-family: Arial;
-  font-size: 30px;
+  font-size: 35px;
 
 }
 
@@ -18,7 +18,7 @@
 
 .nav-link {
   
-  margin-top:15%;
+  margin-top: 30px;
   font-size: 20px;
   font-family: Arial ;
 
@@ -34,6 +34,7 @@
 /*meet dog next door*/
 
 .fontproperties{
+  margin-top: 50px;
   font-size:60px;
   color:white;
 }
@@ -49,7 +50,7 @@
 
 .IMAGEAPP{
  /*keep distance from navbar*/
-  padding-top: 2%;
+  padding-top: 3%;
   max-width: 15%;
  /*the right property sets the right edge of an element to a unit to the right of the right edge of its nearest positioned ancestor.*/
   right:27%;
@@ -176,8 +177,6 @@ lbci{
 
 /*------------------------------------------------------------------------- Footer -------------------------------------------------*/
 
-
-
 #footer {
   padding: 4%;
 }
@@ -187,7 +186,7 @@ lbci{
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 3%;
-
+  ;
 }
 
 
