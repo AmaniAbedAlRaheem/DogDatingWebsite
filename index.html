@@ -15,8 +15,8 @@
 
 <body>
 
-
-  <section id="title">
+<!--Starting section-->
+  <section id="title" >
     <div container-fluid>
       <!--Add Nav Bar below-->
       <nav class="navbar navbar-expand-md navbar-dark">
@@ -31,6 +31,7 @@
         </button>
         <!--will add the list of links and connect to the burger button by id-->
         <div class="collapse navbar-collapse" id="navmain">
+
           <div class="navbar-nav ms-auto">
             <a class="nav-item nav-link " href="#footer">Contact</a>
             <!--specified the id to the section we'll navigate to , on click -->
@@ -47,7 +48,7 @@
     <div class="row ">
       <!--on screen size medium , this column will take size 7 / inorder for the door word to be on the second line-->
       <!--default is small size 12 column-->
-      <div class="col-md-7">
+      <div class="col-md-6 col-lg-5">
         <h1 class="fontproperties fw-bold">Meet dog next door.</h1>
         <button type="button" class="btn  btn-lg btn-dark  ButtonUp">
           <i class="fab fa-apple p-1"></i>Download</button>
@@ -55,9 +56,9 @@
           <i class="fab fa-google-play p-1"></i>Download</button>
       </div>
  
-      <div class="col-md-5 ">
+      <div class="col-md-6 col-lg-7">
         <!--Follow IMAGEAPP class to rotate-->
-        <img  src="images/app.png" alt="DogPhoneApp" class="IMAGEAPP">
+        <img  src="images/app.png" alt="DogPhoneApp" class="IMAGEAPP text-center">
       </div>
     </div>
     </div>
@@ -139,8 +140,9 @@
   <!-------------------------------------------------------- Press -------------------------------------------->
 
   <section id="press" class="PressSection ">
-
+    <!--Tried by adding row , then changed to padding-->
     <img src="images/mtv-logo.png" alt="mtv" class="mtv">
+    
     <img src="images/lbci-logo.png" alt="lbci" class="lbci mb-5">
   </section>
 
@@ -250,9 +252,9 @@
   </footer>
 
 
-
-
+  <!--fontawesome + javascipt links-->
   <script src="https://kit.fontawesome.com/4e609a6d52.js" crossorigin="anonymous"></script>
+  
   <script href="js/bootstrap.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

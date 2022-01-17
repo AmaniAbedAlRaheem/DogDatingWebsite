@@ -1,274 +1,148 @@
 /*First Section-*/
-
 #title {
-  
   background: #674bff;
   padding-left: 10%;
 }
-
-
 .MyApp {
   margin-top: 50px;
   font-family: Arial;
   font-size: 30px;
   font-weight: bold;
- 
 }
-
 /* to move links [contact-pricing-download to the right */
 .navbar-nav {
   padding-right: 25%;
 }
-
 .nav-link {
   margin-top:15%;
   font-family: Arial ;
   font-size: 1.2rem;
   font-weight: bold;
 }
-
-
-
-
 /*meet dog next door*/
 .fontproperties{
-  
   font-size:60px;
   color:white;
-  line-height:2;
 }
-
 .ButtonUp {
-
   margin-top: 4%;
   margin-right:2%;
   margin-bottom: 12%;
-  
-
 }
-
 /*.rowone{
   height: 300px;
 }
 */
-
 .IMAGEAPP{
-
-  
-  /*space from top*/
-  padding-top: 5%;
-  /*inorder for image to go under the nav bar*/
-  padding-right:8%;
-  max-width:320px;
-  /*rotate the image 25 degree*/
+ /*keep distance from navbar*/
+  padding-top: 2%;
+  max-width: 15%;
+ /*the right property sets the right edge of an element to a unit to the right of the right edge of its nearest positioned ancestor.*/
+  right:27%;
+ /*for the photo to rotate 25 deg*/
   transform: rotate(25deg);
-  /*For the photo to go under the white color section*/
-  position:absolute;
-  
-  
-  
-
+ /*time needed to perform full rotation*/
+  transition:0.1s;
+ /*for the image to go under the feature's white section*/
+  position: absolute;
 }
-
-
-
-
-
-
-
 /*------------------------------------Sec 2-----------------------------------------*/
-
-
-
-
 /*features CSS*/
-
 #features {
-  /*section padding from its elements*/
+ /*section padding from its elements*/
   padding: 6% 18%;
   position: relative;
-  background-color: white;;
-
+  background-color: white;
+  ;
 }
-
 .icon {
   color: #674bff;
 }
-
 /*done with features css*/
-
-
-
 /*--------------------------------------Section 3 ---------------------------*/
-
-
 /*carousel*/
-
-
-
 #testimonials {
   background: #674bff;
 }
-
 .CarouselItemHeading {
   font-size: 40px;
-
 }
-
 .CarouselItemImage {
-
   border-radius: 125%;
   width: 10%;
   margin-top: 15px;
-
 }
-
 .carousel-item {
   padding: 6% 12%;
 }
-
-
-
 .hrmargin {
-
   margin-top: 100px;
   color: #242526;
 }
-
-
 /*done with carousel's design*/
-
-
-
 /*---------------------------------------Section 4----------------------------------*/
-
-
-
 /* Press */
-
 #press {
   text-align: center;
   background: #674bff;
-
 }
-
 .mtv{
-  
   width:250px;
- 
   padding-right: 2%;
   padding-bottom: 2%;
   padding-left: 2%;
 }
-
 lbci{
-  
- 
   padding-right: 2%;
   padding-bottom: 2%;
   padding-left: 2%;
-  
 }
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------------------Section 5-----------------------------*/
-
-
-/* pricing  */
-
-
+/* pricing */
 #pricing {
   background: white;
   padding: 100px;
-
 }
-
 /*columns padding*/
 .Padding {
   padding: 2% 2%;
 }
-
-
-
-
 /*----------------------------------Section 6 ----------------------------------*/
-
-
-
 /*action*/
 #cta {
-
   background-color: #674bff;
 }
-
 .ctaheading {
-
   font-size: 50px;
   padding-top: 5%;
   line-height: 2;
-
-
 }
-
 .DownloadButtonTwo {
-
   margin: 3% 1%;
-
 }
-
-
-
-
-
-
 /*---------------------------------Section footer--------------------------------*/
-
-
 /*footer*/
-
 #footer {
-
   padding: 4%;
-
 }
-
 .footericons {
-
   color: black;
   margin-top: 3%;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 3%;
   ;
-
 }
-
 /*DONE WITH FOOTER*/
-
-
-/*this will work when the window width
-reaches */
-@media (max-width: 750px) {
+/*this will work when the window width reaches */
+@media (max-width: 700px) {
   .IMAGEAPP {
-    /*The browser calculates the width*/
-    width: 350px;
-    max-width: 400px;;
-    /*takes the normal flow of the document*/
-    position: static;
-    /*this means that the image will return to its normal rotation at 0*/
-    transform: rotate(0);
-  
-
-  }
-
-  
+     /*The browser calculates the width*/
+      width: 350px;
+      max-width: 450px;
+     /*takes the normal flow of the document*/
+      position: static;
+     /*this means that the image will return to its normal rotation at 0*/
+      transform: rotate(0);
+ }
 }
