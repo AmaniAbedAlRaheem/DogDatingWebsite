@@ -3,22 +3,29 @@
   background: #674bff;
   padding-left: 10%;
 }
+
 .MyApp {
   margin-top: 50px;
   font-family: Arial;
   font-size: 30px;
-  font-weight: bold;
+
 }
+
+/*used arial font family*/
+.nav-link {
+  
+  margin-top:15%;
+  font-size: 20px;
+  font-family: Arial ;
+
+
+} 
 /* to move links [contact-pricing-download to the right */
 .navbar-nav {
-  padding-right: 25%;
+  padding-right: 23%;
 }
-.nav-link {
-  margin-top:15%;
-  font-family: Arial ;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
+
+
 /*meet dog next door*/
 .fontproperties{
   font-size:60px;
