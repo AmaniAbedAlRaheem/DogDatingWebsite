@@ -1,8 +1,11 @@
-/*First Section-*/
+/*-----------------------------------------------Navbar and Title Section-------------------------------------------------------*/
+
+
 #title {
   background: #674bff;
   padding-left: 10%;
 }
+
 
 .MyApp {
   margin-top: 50px;
@@ -11,7 +14,8 @@
 
 }
 
-/*used arial font family*/
+/* Style Links in NavBar*/
+
 .nav-link {
   
   margin-top:15%;
@@ -20,6 +24,7 @@
 
 
 } 
+
 /* to move links [contact-pricing-download to the right */
 .navbar-nav {
   padding-right: 23%;
@@ -27,19 +32,21 @@
 
 
 /*meet dog next door*/
+
 .fontproperties{
   font-size:60px;
   color:white;
 }
-.ButtonUp {
+
+
+.UpperButtons {
   margin-top: 4%;
   margin-right:2%;
   margin-bottom: 12%;
 }
-/*.rowone{
-  height: 300px;
-}
-*/
+
+
+
 .IMAGEAPP{
  /*keep distance from navbar*/
   padding-top: 2%;
@@ -50,24 +57,37 @@
   transform: rotate(25deg);
  /*time needed to perform full rotation*/
   transition:0.1s;
- /*for the image to go under the feature's white section*/
+ /*for the image lower part to go under the feature's white section*/
   position: absolute;
 }
-/*------------------------------------Sec 2-----------------------------------------*/
-/*features CSS*/
+
+
+
+
+/*------------------------------------------------------------Features-----------------------------------------------------------*/
+
+
 #features {
  /*section padding from its elements*/
   padding: 6% 18%;
   position: relative;
   background-color: white;
-  ;
 }
+
+
+
 .icon {
   color: #674bff;
 }
-/*done with features css*/
-/*--------------------------------------Section 3 ---------------------------*/
-/*carousel*/
+
+
+
+
+/*------------------------------------------------------------ Testimonials ---------------------------------------------------------*/
+
+
+
+
 #testimonials {
   background: #674bff;
 }
@@ -82,13 +102,13 @@
 .carousel-item {
   padding: 6% 12%;
 }
-.hrmargin {
-  margin-top: 100px;
-  color: #242526;
-}
-/*done with carousel's design*/
-/*---------------------------------------Section 4----------------------------------*/
-/* Press */
+
+
+
+
+/*------------------------------------------------------------------- Press ----------------------------------------------------*/
+
+
 #press {
   text-align: center;
   background: #674bff;
@@ -104,8 +124,25 @@ lbci{
   padding-bottom: 2%;
   padding-left: 2%;
 }
-/*---------------------------------------Section 5-----------------------------*/
-/* pricing */
+
+
+
+
+/*------------------------------------------------------------------- hr line ---------------------------------------------------*/
+
+
+
+.hrmargin {
+  margin-top: 100px;
+  color: #242526;
+}
+
+
+/*-------------------------------------------------------------- Priceing Using Cards --------------------------------------------*/
+
+
+
+
 #pricing {
   background: white;
   padding: 100px;
@@ -114,8 +151,14 @@ lbci{
 .Padding {
   padding: 2% 2%;
 }
-/*----------------------------------Section 6 ----------------------------------*/
-/*action*/
+
+
+
+
+/*----------------------------------------------------------------------- Call To Action ------------------------------------------------*/
+
+
+
 #cta {
   background-color: #674bff;
 }
@@ -127,8 +170,14 @@ lbci{
 .DownloadButtonTwo {
   margin: 3% 1%;
 }
-/*---------------------------------Section footer--------------------------------*/
-/*footer*/
+
+
+
+
+/*------------------------------------------------------------------------- Footer -------------------------------------------------*/
+
+
+
 #footer {
   padding: 4%;
 }
@@ -138,9 +187,13 @@ lbci{
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 3%;
-  ;
+
 }
-/*DONE WITH FOOTER*/
+
+
+/*------------------------------------------------------------------------- IMAGEAPP --------------------------------------------------*/
+
+
 /*this will work when the window width reaches */
 @media (max-width: 700px) {
   .IMAGEAPP {
