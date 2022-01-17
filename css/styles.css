@@ -8,7 +8,7 @@
 
 
 .MyApp {
-  margin-top: 25px;
+  margin-top: 15px;
   font-family: Arial;
   font-size: 35px;
 
@@ -186,7 +186,7 @@ lbci{
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 3%;
-  ;
+  
 }
 
 
@@ -197,7 +197,7 @@ lbci{
 @media (max-width: 700px) {
   .IMAGEAPP {
      /*The browser calculates the width*/
-      width: 350px;
+    
       max-width: 450px;
      /*takes the normal flow of the document*/
       position: static;
