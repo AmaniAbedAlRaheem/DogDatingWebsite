@@ -8,34 +8,42 @@
   <!--Downloaded bootstrap's css file-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">  <!--Used for project name-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">  <!--used for links-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> <!--features "write something"-->
 
   
+
+
+
 </head>
 
 
 <body>
 
   <!------------------------------------------Nav Bar--------------------------------------->
-  
+
 
   <section id="title">
     <!--Navbar-->
-    
-    <nav class="navbar navbar-dark navbar-expand-lg "> <!-- navbar-expand-lg  : for responsive collapsing -->
+
+    <nav class="navbar navbar-dark navbar-expand-lg ">
+      <!-- navbar-expand-lg  : for responsive collapsing -->
       <div class="container-fluid">
 
-        <a class="navbar-brand MyApp fw-bold" href="#">MyApp</a>  <!--navbar-brand used for project name-->
+        <a class="navbar-brand MyApp fw-bold" href="#">MyApp</a>
+        <!--navbar-brand used for project name-->
         <!-- Burger button Goes here -->
-         <!--data-target = aria controls = id = mainnav-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav" 
+        <!--data-target = aria controls = id = mainnav-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav"
           aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-       
-       <!-- the list of links to be added to nav and toggle button -->
-        <div class="collapse navbar-collapse text-center " id="mainnav"> <!--collaps: hide content-->
+
+        <!-- the list of links to be added to nav and toggle button -->
+        <div class="collapse navbar-collapse text-center " id="mainnav">
+          <!--collaps: hide content-->
           <div class="navbar-nav ms-auto StyleLinks fw-bold">
             <a class="nav-link me-4" href="#footer">Contact</a>
             <a class="nav-link me-4" href="#pricing">Pricing</a>
@@ -48,21 +56,21 @@
 
 
     <!------------------------------------------- Title ----------------------------->
-    
-      <div class="row">
-        <!--Fisrt column takes size 4 when screen size hits large , so that the word "door" be on the second line-->
-        <!--Fisrt Column takes size 6 when screen size hits medium , so that the word "door" be on the same line-->
-        <div class="col-lg-4 col-md-6 "> 
-          <h1 class="TitleHeading fw-bold ">Meet dog next door.</h1>
-          <button type="button" class="btn btn-dark btn-lg UpperDownloadButtons"><i
-              class="fab fa-apple p-1"></i>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg UpperDownloadButtons"><i
-              class="fab fa-google-play p-1"></i>Download</button>
-        </div>
-        <div class="col-lg-5 col-md-6">
-          <img src="images/app.png" alt="DogApp" class="ImageApp" />
-        </div>
+
+    <div class="row">
+      <!--Fisrt column takes size 4 when screen size hits large , so that the word "door" be on the second line-->
+      <!--Fisrt Column takes size 6 when screen size hits medium , so that the word "door" be on the same line-->
+      <div class="col-lg-4 col-md-6 ">
+        <h1 class="TitleHeading fw-bold ">Meet dog next door.</h1>
+        <button type="button" class="btn btn-dark btn-lg UpperDownloadButtons"><i
+            class="fab fa-apple p-1"></i>Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg UpperDownloadButtons"><i
+            class="fab fa-google-play p-1"></i>Download</button>
       </div>
+      <div class="col-lg-5 col-md-6">
+        <img src="images/app.png" alt="DogApp" class="ImageApp" />
+      </div>
+    </div>
     </div>
   </section>
 
@@ -81,19 +89,19 @@
         <div class="FeaturesIcons col-md-4  p-5">
           <!--use fa-4x to change the size of the icons-->
           <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="fw-bold">Feature1</h3>
-          <p>Write something here...</p>
+          <h3 class="fw-bold FeatureHead">Feature1</h3>
+          <p class="subtitle">Write something here...</p>
         </div>
         <!--On screen size medium and up, each element [feature] takes 4 size column-->
         <div class="FeaturesIcons col-md-4  p-5">
           <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3 class="fw-bold">Feature2</h3>
-          <p>Write something here...</p>
+          <h3 class="fw-bold FeatureHead">Feature2</h3>
+          <p class="subtitle">Write something here...</p>
         </div>
         <div class=" FeaturesIcons col-md-4  p-5">
           <i class="icon fas fa-heart fa-4x"></i>
-          <h3 class="fw-bold">Feature3</h3>
-          <p>Write something here...</p>
+          <h3 class="fw-bold FeatureHead">Feature3</h3>
+          <p class="subtitle">Write something here...</p>
         </div>
       </div>
     </div>
@@ -156,7 +164,7 @@
 
 
 
-  <!---------------------------------------------------------Grey Line---------------------------------------------->
+  <!--------------------------------------------------------- Grey Line---------------------------------------------->
 
   <hr size="10" class="hrmargin">
 
@@ -165,7 +173,7 @@
 
   <section id="pricing" class="text-center">
     <h2 class="fw-bold ">Packages</h2>
-    <p>Something interesting here...</p>
+    <p class="subtitle">Something interesting here...</p>
 
     <div class="row">
 
@@ -180,10 +188,10 @@
           </div>
           <!--Add all the body texts inside -->
           <div class="card-body">
-            <h2 class="fw-bold">Free</h2>
-            <p class="card-text">5 Matches Per Day</p>
-            <pm class="card-text">10 Messages Per Day</p>
-              <p class="card-text">Unlimited App Usage</p>
+            <h2 class="fw-bold ">Free</h2>
+            <p class="card-text subtitle">5 Matches Per Day</p>
+            <pm class="card-text subtitle">10 Messages Per Day</p>
+              <p class="card-text subtitle">Unlimited App Usage</p>
               <button type="button" class="btn  btn-outline-dark btn-lg">Sign Up</button>
           </div>
         </div>
@@ -196,9 +204,9 @@
           </div>
           <div class="card-body">
             <h2 class="fw-bold">$29 / mo</h2>
-            <p class="card-text">Unlimited Matches</p>
-            <p class="card-text">Unlimited Messages</p>
-            <p class="card-text">Unlimited App Usage</p>
+            <p class="card-text subtitle">Unlimited Matches</p>
+            <p class="card-text subtitle">Unlimited Messages</p>
+            <p class="card-text subtitle">Unlimited App Usage</p>
             <button type="button" class="btn btn-dark btn-outline-light btn-lg">Sign Up</button>
           </div>
         </div>
@@ -210,10 +218,10 @@
           </div>
           <div class="card-body">
             <h2 class="fw-bold">$49 / mo</h2>
-            <p class="card-text">Pirority Listing</p>
-            <p class="card-text">Unlimited Matches</p>
-            <p class="card-text">Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
+            <p class="card-text subtitle">Pirority Listing</p>
+            <p class="card-text subtitle">Unlimited Matches</p>
+            <p class="card-text subtitle">Unlimited Messages</p>
+            <p class="card-text subtitle">Unlimited App Usage</p>
             <button type="button" class="btn btn-lg btn-dark btn-outline-light ">Sign Up</button>
           </div>
         </div>
@@ -257,7 +265,7 @@
     </div>
   </footer>
 
-  
+
 
 
   <!----------------------------------------fontawesome + javascipt links--------------------------------------------->
