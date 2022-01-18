@@ -13,56 +13,55 @@
 
 <body>
 
-  <!----------------------------------Nav Bar + Title Section------------------------------------------------>
+  <!------------------------------------------Nav Bar--------------------------------------->
+
 
   <section id="title">
-    <div container>
-      <!-------------------------------Added Nav Bar below--------------------------------------------------->
-      <nav class="navbar navbar-expand-md pe-5 navbar-dark">
-        <a href="#" class="navbar-brand MyApp fw-bold ">MyApp</a>
+    <!--Navbar-->
+    
+    <nav class="navbar navbar-dark navbar-expand-lg "> <!-- navbar-expand-lg  : for responsive collapsing -->
+      <div class="container-fluid">
 
-        <!--will add the burger button-->
-        <!--Note:data-target must be equal to aria-controls and id of the div class that have the links = navmain-->
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navmain"
-          aria-controls="navmain" aria aria-expanded="false" aria-label="toggle navigation">
-          <!--Added Burger button  icon-->
+        <a class="navbar-brand MyApp fw-bold" href="#">MyApp</a>  <!--navbar-brand used for project name-->
+        <!-- Burger button Goes here -->
+         <!--data-target = aria controls = id = mainnav-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav" 
+          aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <!--will add the list of links and connect to the burger button by id-->
-        <div class="collapse navbar-collapse" id="navmain">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-item nav-link fw-bold" href="#footer">Contact</a>
-            <a class="nav-item nav-link fw-bold" href="#pricing">Pricing</a>
-            <a class="nav-item nav-link fw-bold" href="#cta">Download</a>
+       
+       <!-- the list of links to be added to nav and toggle button -->
+        <div class="collapse navbar-collapse text-center " id="mainnav"> <!--collaps: hide content-->
+          <div class="navbar-nav ms-auto StyleLinks fw-bold">
+            <a class="nav-link" href="#footer">Contact</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#cta">Download</a>
           </div>
         </div>
-      </nav>
-    </div>
-
-
-    <!-----------------------------------------------title---------------------------------------------------->
-
-
-    <div class="row " >
-
-      <!--default is sm where each column takes size 12-->
-      <div class="col-md-6 col-lg-5 ">
-        <h1 class="fontproperties fw-bold">Meet dog next door.</h1>
-        <button type="button" class="btn  btn-lg btn-dark  UpperButtons">
-          <i class="fab fa-apple p-1"></i>Download</button>
-        <button type="button" class="btn btn-lg btn-outline-light  UpperButtons">
-          <i class="fab fa-google-play p-1"></i>Download</button>
       </div>
+    </nav>
 
-      <div class="col-md-6 col-lg-7">
-        <!--Follow IMAGEAPP class to Style and Rotate-->
-        <img src="images/app.png" alt="DogPhoneApp" class="IMAGEAPP text-center">
+
+
+    <!------------------------------------------- Title ----------------------------->
+    
+      <div class="row">
+        <div class="col-lg-4 col-md-6 ">
+          <h1 class="TitleHeading fw-bold ">Meet dog next door.</h1>
+          <button type="button" class="btn btn-dark btn-lg UpperDownloadButtons"><i
+              class="fab fa-apple p-1"></i>Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg UpperDownloadButtons"><i
+              class="fab fa-google-play p-1"></i>Download</button>
+        </div>
+        <div class="col-lg-5 col-md-6">
+          <img src="images/app.png" alt="DogApp" class="ImageApp" />
+        </div>
       </div>
-    </div>
-    </div>
     </div>
   </section>
+
+
+
 
 
   <!-----------------------------------------Features---------------------------------------->
@@ -259,12 +258,16 @@
 
   <script src="https://kit.fontawesome.com/4e609a6d52.js" crossorigin="anonymous"></script>
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 
 </body>
 

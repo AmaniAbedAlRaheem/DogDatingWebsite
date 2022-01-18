@@ -4,63 +4,72 @@
 #title {
   background: #674bff;
   padding-left: 10%;
+
+  /*padding-left: 10%;*/
 }
 
 
-.MyApp {
-  margin-top: 15px;
+/*to keeps the distance between the navbar and title div*/
+.navbar {
+  padding-bottom: 80px ;
+}
+
+/*for the MyApp*/
+.MyApp{
+
   font-family: Arial;
-  font-size: 35px;
-
+  font-size: 40px;
 }
 
-/* Style Links in NavBar*/
 
-.nav-link {
-  
-  margin-top: 30px;
+/*for nav bar links*/
+.StyleLinks{
+  font-family: Arial;
   font-size: 20px;
-  font-family: Arial ;
+  
+  
+}
 
-
-} 
-
-/* to move links [contact-pricing-download to the right */
+/*inorder to move navbar of the links only to the right */
 .navbar-nav {
-  padding-right: 23%;
-}
-
-
-/*meet dog next door*/
-
-.fontproperties{
-  margin-top: 50px;
-  font-size:60px;
-  color:white;
-}
-
-
-.UpperButtons {
-  margin-top: 4%;
-  margin-right:2%;
-  margin-bottom: 12%;
+  padding-right: 17%;
 }
 
 
 
-.IMAGEAPP{
- /*keep distance from navbar*/
-  padding-top: 3%;
-  max-width: 15%;
- /*the right property sets the right edge of an element to a unit to the right of the right edge of its nearest positioned ancestor.*/
-  right:27%;
- /*for the photo to rotate 25 deg*/
+/*----------------------------------------------title-----------------------------------------------------------*/
+
+
+/*styling dog meets*/
+.TitleHeading {
+  font-size: 50px;
+  margin-top: 12%;
+  color: #fff;
+  
+}
+
+.UpperDownloadButtons{
+  margin-top: 3%; /*keep away from TitleHeading*/
+  margin-bottom: 7%; /*keeps distance between the buttons and section margin*/
+  margin-right: 2%; /*keeps distance between buttons*/
+  
+}
+
+
+.ImageApp{
+  
+  width:15%;
+  min-width: 200px; /*inorder for the image size to not get smaller when transitioning*/
   transform: rotate(25deg);
- /*time needed to perform full rotation*/
-  transition:0.1s;
- /*for the image lower part to go under the feature's white section*/
-  position: absolute;
+  transition: 0.1s;
+  right: 20%; /*move image to right*/
+  max-width: 400px; /*for the size of the image to not get higher on transition*/
+  position: absolute; /*for the image to go under the div*/
+ 
 }
+
+
+
 
 
 
@@ -193,15 +202,23 @@ lbci{
 /*------------------------------------------------------------------------- IMAGEAPP --------------------------------------------------*/
 
 
-/*this will work when the window width reaches */
-@media (max-width: 700px) {
-  .IMAGEAPP {
-     /*The browser calculates the width*/
-    
-      max-width: 450px;
-     /*takes the normal flow of the document*/
-      position: static;
-     /*this means that the image will return to its normal rotation at 0*/
-      transform: rotate(0);
- }
+
+@media (max-width: 768px) {
+  .ImageApp {
+    width: auto;
+    position: static;
+    /*rotation will get back to 0 [original rotation]*/
+    transform: rotate(0);
+  }
+}
+
+
+/*------------------------------------------------------------------------ Center Section Title
+
+/*Center title section when screen sizes down */
+@media (max-width: 768px) {
+
+  #title{
+    text-align: center;
+  }
 }
