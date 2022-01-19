@@ -4,6 +4,7 @@
 .subtitle {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  width: 100%;
 }
 
 /*styling all heading in the webpage*/
@@ -319,7 +320,9 @@
   }
 
   .ctaheading {
-    width: 87%;
-    padding-left: 10%;
+    width: 80%;
+    padding-left: 16%;
   }
+
+ 
 }
