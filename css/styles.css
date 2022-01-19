@@ -271,8 +271,7 @@
 
     transform: rotate(0);
     /*rotation will get back to 0 [original rotation]*/
-    width: auto;
-    /*the browser calculates the width of the image / min-width is specified in IMAGEAPP class*/
+    width: 300px;
     position: static;
     /*the image will flow in the normal rendering sequence of the webpage [default]*/
 
@@ -293,4 +292,3 @@
 
 }
 
-/*checking code update*/
