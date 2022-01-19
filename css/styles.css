@@ -33,6 +33,7 @@
 /*to keeps the distance between the navbar and title div*/
 .navbar {
   padding-bottom: 80px;
+ 
 }
 
 
@@ -40,6 +41,7 @@
 
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
+  
 }
 
 
@@ -304,3 +306,8 @@
   }
 }
 
+@media (max-width: 1024px){
+  .navbar{
+    margin-left: 50px;
+  }
+}
