@@ -306,3 +306,12 @@
     margin-left: 50px;
   }
 }
+
+@media (max-width: 1024px) {
+  .CarouselSubHeading{
+    margin-left: 2%;
+   
+
+  }
+}
+
