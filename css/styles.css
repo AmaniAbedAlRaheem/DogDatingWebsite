@@ -1,3 +1,21 @@
+/*styling applied on more than one section elements*/
+
+.subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+/*styling all heading in the webpage*/
+
+.Headings , .PricePerMonth{
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+
+}
+
+
+
 /*----------------------------------------------- Navbar and Title Section -------------------------------------------------------*/
 
 
@@ -28,8 +46,7 @@
 .StyleLinks {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-
-
+  font-weight:700;
 
 }
 
@@ -98,10 +115,6 @@
   background-color: white;
 }
 
-.subtitle{
-
-  font-family: "Helvetica";
-}
 
 .icon {
   color: #674bff;
@@ -126,12 +139,22 @@
 .CarouselItemImage {
   border-radius: 125%;
   width: 10%;
-  margin-top: 15px;
+  margin-top: 5px;
+}
+
+.CarouselSubHeading{
+  margin-left: 2%;
+  color:white;
+ 
+ 
+  
 }
 
 .carousel-item {
   padding: 6% 12%;
 }
+
+
 
 
 
@@ -184,6 +207,13 @@
 /*columns padding*/
 .Padding {
   padding: 2% 2%;
+}
+
+.PricePerMonth{
+
+  font-family: 'Roboto', sans-serif;
+  
+
 }
 
 
