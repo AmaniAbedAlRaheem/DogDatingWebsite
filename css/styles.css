@@ -1,5 +1,6 @@
 /*styling applied on more than one section elements*/
 
+
 .subtitle {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -188,14 +189,6 @@
 
 
 
-/*------------------------------------------------------------------- hr line ---------------------------------------------------*/
-
-
-
-.hrmargin {
-  margin-top: 100px;
-  color: #242526;
-}
 
 
 /*-------------------------------------------------------------- Priceing Using Cards --------------------------------------------*/
