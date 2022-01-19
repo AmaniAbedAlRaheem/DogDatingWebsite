@@ -299,19 +299,17 @@
   .TitleHeading {
     width: auto;
   }
-}
 
-@media (max-width: 1024px) {
+
   .navbar {
     margin-left: 50px;
   }
-}
 
-@media (max-width: 1024px) {
-  .CarouselSubHeading{
-    margin-left: 2%;
-   
 
-  }
+ 
+.CarouselSubHeading{
+      margin-left: 2%;
+      font-size: 15px;
+    }
 }
 
