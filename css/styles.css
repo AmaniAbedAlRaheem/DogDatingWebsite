@@ -68,6 +68,8 @@
   font-size: 50px;
   margin-top: 12%;
   color: #fff;
+  /*for the door to go on the next line*/
+  width: 400px;
 
 }
 
@@ -293,3 +295,12 @@
   }
 
 }
+
+
+/*for the "door." to get back on the previous line*/
+@media (max-width: 1024px){
+  .TitleHeading{
+    width: auto;
+  }
+}
+
