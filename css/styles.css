@@ -229,6 +229,7 @@
   padding-top: 5%;
   /*to make a space from the bottom*/
   line-height: 2;
+  width: 100%;
 }
 
 .DownloadButtonTwo {
@@ -311,5 +312,15 @@
       margin-left: 2%;
       font-size: 15px;
     }
+
+
+#cta{
+  text-align: center;
+}
+
+.ctaheading{
+  width: 87%;
+  padding-left: 10%;
+}
 }
 
