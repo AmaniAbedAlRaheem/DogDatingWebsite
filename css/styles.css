@@ -1,13 +1,14 @@
 /*styling applied on more than one section elements*/
 
-.subtitle{
+.subtitle {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
 /*styling all heading in the webpage*/
 
-.Headings , .PricePerMonth{
+.Headings,
+.PricePerMonth {
 
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -46,7 +47,7 @@
 .StyleLinks {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  font-weight:700;
+  font-weight: 700;
 
 }
 
@@ -142,12 +143,12 @@
   margin-top: 5px;
 }
 
-.CarouselSubHeading{
+.CarouselSubHeading {
   margin-left: 2%;
-  color:white;
- 
- 
-  
+  color: white;
+
+
+
 }
 
 .carousel-item {
@@ -209,10 +210,10 @@
   padding: 2% 2%;
 }
 
-.PricePerMonth{
+.PricePerMonth {
 
   font-family: 'Roboto', sans-serif;
-  
+
 
 }
 
