@@ -307,20 +307,19 @@
   }
 
 
- 
-.CarouselSubHeading{
-      margin-left: 2%;
-      font-size: 15px;
-    }
+
+  .CarouselSubHeading {
+    margin-left: 2%;
+    font-size: 15px;
+  }
 
 
-#cta{
-  text-align: center;
+  #cta {
+    text-align: center;
+  }
+
+  .ctaheading {
+    width: 87%;
+    padding-left: 10%;
+  }
 }
-
-.ctaheading{
-  width: 87%;
-  padding-left: 10%;
-}
-}
-
