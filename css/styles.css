@@ -265,13 +265,14 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .ImageApp {
 
 
     transform: rotate(0);
     /*rotation will get back to 0 [original rotation]*/
-    width: 300px;
+    width: 400px;
+    /*the browser calculates the width of the image / min-width is specified in IMAGEAPP class*/
     position: static;
     /*the image will flow in the normal rendering sequence of the webpage [default]*/
 
@@ -284,11 +285,11 @@
 
 
 /*Center title section when screen sizes down */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
   #title {
     text-align: center;
+    padding-left: 0%; /*for the pic to be in the middle
   }
 
 }
-
